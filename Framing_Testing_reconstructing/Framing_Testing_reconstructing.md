@@ -27,7 +27,7 @@
 >& using coordinates of rectangles returned by model frames are cropped, resized & data normalization is performed.Output is predicted for each frame. Rectangles around faces, probability of whether faces are real or fake are inserted in the frame and the frame is stored in folder. For prediction, transfer learning is used with base model **Inception v3**.
 ### Reconstruction
 >All the frames are stored in an image array. Image array is further processed to form a video (.avi format). 
-<br/>The process is repeated for all videos in dataeset.
+<br/>The process is repeated for all videos in dataset.
 
  
 
